@@ -1,0 +1,92 @@
+*{
+
+  margin: 0;
+}
+
+h1{
+  margin-top: 10px;
+  margin-bottom: 4px;
+}
+h2{
+  margin-left: 16px;
+}
+span{
+  margin: 6px;
+}
+div {
+  width: 100px;
+  margin: 3px;
+  text-align:center;
+  border:3px;
+}
+.sectionstyle{
+  width: 1000px;
+  display: flex;
+}
+.stylesolid{
+  border-style:solid;
+}
+.styledashed{
+  border-style:dashed;
+}
+.styledouble{
+  border-style:double;
+}
+.styledotted{
+  border-style:dotted;
+}
+.stylegroove{
+  border-style:groove;
+}
+.styleridge{
+  border-style:ridge;
+}
+.styleinset{
+  border-style:inset;
+}
+.styleoutset{
+  border-style:outset;
+}
+
+.sectionwidth{
+  display: flex;
+  width: 1000px;
+}
+.widthofnumber{
+  border-width:9px;
+  border-style:solid;
+}
+.widththin{
+  border-width:thin;
+  border-style:solid;
+}
+.widthmedium{
+  border-width:medium;
+  border-style:solid;
+}
+.widththick{
+  border-width:thick;
+  border-style:solid;
+}
+.bordercolor{
+  border-color:blue;
+   border-style:solid;
+}
+.border{
+  display: flex;
+  width: 500px;
+  padding-top: 10px;
+}
+.borderbottom{
+  margin-left: 10px;
+  border:solid 1pz black;
+  width: 180px;
+  border-bottom:dashed 3px red;
+}
+.bordertop{
+  margin-left: 10px;
+  border:solid 1pz black;
+  width: 180px;
+  border-top:solid 3px green;
+  
+}

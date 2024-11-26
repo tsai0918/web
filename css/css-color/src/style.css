@@ -1,0 +1,42 @@
+span{
+  margin-left: 5px;
+  font-size:20px;
+}
+h3{
+  margin: 5px ;
+}
+.gradient{
+  display: flex;
+  flex-wrap:wrap;
+  color:white;
+}
+.gradient div{
+  width: 100px;
+  height: 100px;
+  margin-left: 4px;
+  margin-top: 4px;
+}
+.gradienttop{
+  background-image: linear-gradient(to top, purple, blue)
+}
+.gradientbottom{
+  background-image: linear-gradient(to bottom, purple, blue);
+}
+
+.gradientright{
+  background-image: linear-gradient(to right, purple, blue);
+  
+}
+.gradientleft{
+  background-image: linear-gradient(to left, purple, blue);
+  
+}
+.gradienttopleft{
+  background-image: linear-gradient(to top left, purple, blue);
+}
+.gradient90deg{
+  background: linear-gradient(90deg, purple, blue);  
+}
+.gradientcolors{
+  background-image: linear-gradient(to right bottom, #db9595, #d394ba, #7cb1cc,#4486c4, #5782ed);
+}

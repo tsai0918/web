@@ -1,0 +1,58 @@
+//
+=size($w,$h:$w)
+  width: $w
+  height: $h
+
+
+
+html,body
+  +size(100%)
+  display: flex
+  justify-content: center
+  align-items: center
+  background-color: #222
+
+.middle
+  position: relative
+  
+.ball
+  +size(20px)
+  background-color: blue
+  border-radius: 50%
+  position: absolute
+  animation: ball 5s infinite alternate
+
+
+ 
+  
+
+  
+//   製作動畫影格 
+@keyframes ball
+  0%
+    transform: translateX(0px) 
+  
+    background-color: #a6c9f4
+  25%
+    +size(50px)
+    transform: translateX(300px)
+  
+    background-color: #7985ea
+  75%
+    transform: translateX(0px)
+    
+    background-color: #5964e0
+  100%
+   
+    transform: translateX(-300px)   
+    background-color: #4156cc
+    
+@for $i from 1 through 30
+  .container#{$i}
+    transform: rotate(#{$i*360/70}deg)
+    .ball
+       animation-delay: -$i*0.9s
+
+    
+  
+

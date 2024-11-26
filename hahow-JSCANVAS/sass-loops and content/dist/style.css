@@ -1,0 +1,805 @@
+.vribbon, .hribbon {
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+
+.vribbon {
+  position: absolute;
+  height: 100%;
+  width: 15%;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.hribbon {
+  position: absolute;
+  height: 15%;
+  width: 100%;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+
+.cap {
+  position: absolute;
+  height: 15%;
+  width: calc(100% + 10px);
+  top: 0;
+  left: 0;
+  transform: translateX(-5px);
+  box-shadow: 0px 0px 20px;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  background-color: #222;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.present {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  background-color: #fc4949;
+  transform: rotate(0deg);
+  margin: 10px;
+}
+.present .vribbon, .present .hribbon {
+  background-color: #fff;
+}
+.present .cap {
+  background-color: #fc4949;
+}
+
+.present1 {
+  width: 87px;
+  height: 87px;
+  position: relative;
+  background-color: #b6a0e5;
+  transform: rotate(-1deg);
+  margin: 10px;
+}
+.present1 .vribbon, .present1 .hribbon {
+  background-color: #fcabab;
+}
+.present1 .cap {
+  background-color: #b6a0e5;
+}
+
+.present2 {
+  width: 88px;
+  height: 88px;
+  position: relative;
+  background-color: #fcabab;
+  transform: rotate(-7deg);
+  margin: 10px;
+}
+.present2 .vribbon, .present2 .hribbon {
+  background-color: #87b5ff;
+}
+.present2 .cap {
+  background-color: #fcabab;
+}
+
+.present3 {
+  width: 71px;
+  height: 71px;
+  position: relative;
+  background-color: #ffffe0;
+  transform: rotate(6deg);
+  margin: 10px;
+}
+.present3 .vribbon, .present3 .hribbon {
+  background-color: #fccc9f;
+}
+.present3 .cap {
+  background-color: #ffffe0;
+}
+
+.present4 {
+  width: 73px;
+  height: 73px;
+  position: relative;
+  background-color: #ffffe0;
+  transform: rotate(-2deg);
+  margin: 10px;
+}
+.present4 .vribbon, .present4 .hribbon {
+  background-color: #87b5ff;
+}
+.present4 .cap {
+  background-color: #ffffe0;
+}
+
+.present5 {
+  width: 94px;
+  height: 94px;
+  position: relative;
+  background-color: #fccc9f;
+  transform: rotate(-5deg);
+  margin: 10px;
+}
+.present5 .vribbon, .present5 .hribbon {
+  background-color: #fcabab;
+}
+.present5 .cap {
+  background-color: #fccc9f;
+}
+
+.present6 {
+  width: 77px;
+  height: 77px;
+  position: relative;
+  background-color: #ffffe0;
+  transform: rotate(1deg);
+  margin: 10px;
+}
+.present6 .vribbon, .present6 .hribbon {
+  background-color: #b6a0e5;
+}
+.present6 .cap {
+  background-color: #ffffe0;
+}
+
+.present7 {
+  width: 93px;
+  height: 93px;
+  position: relative;
+  background-color: #fccc9f;
+  transform: rotate(-2deg);
+  margin: 10px;
+}
+.present7 .vribbon, .present7 .hribbon {
+  background-color: #fcabab;
+}
+.present7 .cap {
+  background-color: #fccc9f;
+}
+
+.present8 {
+  width: 80px;
+  height: 80px;
+  position: relative;
+  background-color: #fcabab;
+  transform: rotate(-4deg);
+  margin: 10px;
+}
+.present8 .vribbon, .present8 .hribbon {
+  background-color: #fccc9f;
+}
+.present8 .cap {
+  background-color: #fcabab;
+}
+
+.present9 {
+  width: 91px;
+  height: 91px;
+  position: relative;
+  background-color: #87b5ff;
+  transform: rotate(4deg);
+  margin: 10px;
+}
+.present9 .vribbon, .present9 .hribbon {
+  background-color: #ffffe0;
+}
+.present9 .cap {
+  background-color: #87b5ff;
+}
+
+.present10 {
+  width: 69px;
+  height: 69px;
+  position: relative;
+  background-color: #fccc9f;
+  transform: rotate(8deg);
+  margin: 10px;
+}
+.present10 .vribbon, .present10 .hribbon {
+  background-color: #87b5ff;
+}
+.present10 .cap {
+  background-color: #fccc9f;
+}
+
+.present11 {
+  width: 81px;
+  height: 81px;
+  position: relative;
+  background-color: #fcabab;
+  transform: rotate(-6deg);
+  margin: 10px;
+}
+.present11 .vribbon, .present11 .hribbon {
+  background-color: #fccc9f;
+}
+.present11 .cap {
+  background-color: #fcabab;
+}
+
+.present12 {
+  width: 69px;
+  height: 69px;
+  position: relative;
+  background-color: #fccc9f;
+  transform: rotate(-9deg);
+  margin: 10px;
+}
+.present12 .vribbon, .present12 .hribbon {
+  background-color: #b6a0e5;
+}
+.present12 .cap {
+  background-color: #fccc9f;
+}
+
+.present13 {
+  width: 67px;
+  height: 67px;
+  position: relative;
+  background-color: #ffffe0;
+  transform: rotate(8deg);
+  margin: 10px;
+}
+.present13 .vribbon, .present13 .hribbon {
+  background-color: #87b5ff;
+}
+.present13 .cap {
+  background-color: #ffffe0;
+}
+
+.present14 {
+  width: 57px;
+  height: 57px;
+  position: relative;
+  background-color: #b6a0e5;
+  transform: rotate(4deg);
+  margin: 10px;
+}
+.present14 .vribbon, .present14 .hribbon {
+  background-color: #ffffe0;
+}
+.present14 .cap {
+  background-color: #b6a0e5;
+}
+
+.present15 {
+  width: 66px;
+  height: 66px;
+  position: relative;
+  background-color: #fccc9f;
+  transform: rotate(-5deg);
+  margin: 10px;
+}
+.present15 .vribbon, .present15 .hribbon {
+  background-color: #87b5ff;
+}
+.present15 .cap {
+  background-color: #fccc9f;
+}
+
+.present16 {
+  width: 93px;
+  height: 93px;
+  position: relative;
+  background-color: #b6a0e5;
+  transform: rotate(-6deg);
+  margin: 10px;
+}
+.present16 .vribbon, .present16 .hribbon {
+  background-color: #fcabab;
+}
+.present16 .cap {
+  background-color: #b6a0e5;
+}
+
+.present17 {
+  width: 96px;
+  height: 96px;
+  position: relative;
+  background-color: #87b5ff;
+  transform: rotate(-2deg);
+  margin: 10px;
+}
+.present17 .vribbon, .present17 .hribbon {
+  background-color: #fccc9f;
+}
+.present17 .cap {
+  background-color: #87b5ff;
+}
+
+.present18 {
+  width: 87px;
+  height: 87px;
+  position: relative;
+  background-color: #fccc9f;
+  transform: rotate(3deg);
+  margin: 10px;
+}
+.present18 .vribbon, .present18 .hribbon {
+  background-color: #ffffe0;
+}
+.present18 .cap {
+  background-color: #fccc9f;
+}
+
+.present19 {
+  width: 79px;
+  height: 79px;
+  position: relative;
+  background-color: #87b5ff;
+  transform: rotate(10deg);
+  margin: 10px;
+}
+.present19 .vribbon, .present19 .hribbon {
+  background-color: #fccc9f;
+}
+.present19 .cap {
+  background-color: #87b5ff;
+}
+
+.present20 {
+  width: 71px;
+  height: 71px;
+  position: relative;
+  background-color: #ffffe0;
+  transform: rotate(-4deg);
+  margin: 10px;
+}
+.present20 .vribbon, .present20 .hribbon {
+  background-color: #87b5ff;
+}
+.present20 .cap {
+  background-color: #ffffe0;
+}
+
+.present21 {
+  width: 64px;
+  height: 64px;
+  position: relative;
+  background-color: #fccc9f;
+  transform: rotate(6deg);
+  margin: 10px;
+}
+.present21 .vribbon, .present21 .hribbon {
+  background-color: #87b5ff;
+}
+.present21 .cap {
+  background-color: #fccc9f;
+}
+
+.present22 {
+  width: 86px;
+  height: 86px;
+  position: relative;
+  background-color: #fccc9f;
+  transform: rotate(-8deg);
+  margin: 10px;
+}
+.present22 .vribbon, .present22 .hribbon {
+  background-color: #87b5ff;
+}
+.present22 .cap {
+  background-color: #fccc9f;
+}
+
+.present23 {
+  width: 92px;
+  height: 92px;
+  position: relative;
+  background-color: #b6a0e5;
+  transform: rotate(9deg);
+  margin: 10px;
+}
+.present23 .vribbon, .present23 .hribbon {
+  background-color: #ffffe0;
+}
+.present23 .cap {
+  background-color: #b6a0e5;
+}
+
+.present24 {
+  width: 86px;
+  height: 86px;
+  position: relative;
+  background-color: #b6a0e5;
+  transform: rotate(-5deg);
+  margin: 10px;
+}
+.present24 .vribbon, .present24 .hribbon {
+  background-color: #fccc9f;
+}
+.present24 .cap {
+  background-color: #b6a0e5;
+}
+
+.present25 {
+  width: 67px;
+  height: 67px;
+  position: relative;
+  background-color: #b6a0e5;
+  transform: rotate(-9deg);
+  margin: 10px;
+}
+.present25 .vribbon, .present25 .hribbon {
+  background-color: #87b5ff;
+}
+.present25 .cap {
+  background-color: #b6a0e5;
+}
+
+.present26 {
+  width: 74px;
+  height: 74px;
+  position: relative;
+  background-color: #ffffe0;
+  transform: rotate(-1deg);
+  margin: 10px;
+}
+.present26 .vribbon, .present26 .hribbon {
+  background-color: #87b5ff;
+}
+.present26 .cap {
+  background-color: #ffffe0;
+}
+
+.present27 {
+  width: 74px;
+  height: 74px;
+  position: relative;
+  background-color: #b6a0e5;
+  transform: rotate(-8deg);
+  margin: 10px;
+}
+.present27 .vribbon, .present27 .hribbon {
+  background-color: #87b5ff;
+}
+.present27 .cap {
+  background-color: #b6a0e5;
+}
+
+.present28 {
+  width: 95px;
+  height: 95px;
+  position: relative;
+  background-color: #87b5ff;
+  transform: rotate(7deg);
+  margin: 10px;
+}
+.present28 .vribbon, .present28 .hribbon {
+  background-color: #fccc9f;
+}
+.present28 .cap {
+  background-color: #87b5ff;
+}
+
+.present29 {
+  width: 77px;
+  height: 77px;
+  position: relative;
+  background-color: #87b5ff;
+  transform: rotate(6deg);
+  margin: 10px;
+}
+.present29 .vribbon, .present29 .hribbon {
+  background-color: #fcabab;
+}
+.present29 .cap {
+  background-color: #87b5ff;
+}
+
+.present30 {
+  width: 96px;
+  height: 96px;
+  position: relative;
+  background-color: #fccc9f;
+  transform: rotate(5deg);
+  margin: 10px;
+}
+.present30 .vribbon, .present30 .hribbon {
+  background-color: #fcabab;
+}
+.present30 .cap {
+  background-color: #fccc9f;
+}
+
+.present31 {
+  width: 68px;
+  height: 68px;
+  position: relative;
+  background-color: #87b5ff;
+  transform: rotate(-2deg);
+  margin: 10px;
+}
+.present31 .vribbon, .present31 .hribbon {
+  background-color: #fcabab;
+}
+.present31 .cap {
+  background-color: #87b5ff;
+}
+
+.present32 {
+  width: 73px;
+  height: 73px;
+  position: relative;
+  background-color: #b6a0e5;
+  transform: rotate(0deg);
+  margin: 10px;
+}
+.present32 .vribbon, .present32 .hribbon {
+  background-color: #fcabab;
+}
+.present32 .cap {
+  background-color: #b6a0e5;
+}
+
+.present33 {
+  width: 80px;
+  height: 80px;
+  position: relative;
+  background-color: #87b5ff;
+  transform: rotate(7deg);
+  margin: 10px;
+}
+.present33 .vribbon, .present33 .hribbon {
+  background-color: #fcabab;
+}
+.present33 .cap {
+  background-color: #87b5ff;
+}
+
+.present34 {
+  width: 91px;
+  height: 91px;
+  position: relative;
+  background-color: #fcabab;
+  transform: rotate(1deg);
+  margin: 10px;
+}
+.present34 .vribbon, .present34 .hribbon {
+  background-color: #87b5ff;
+}
+.present34 .cap {
+  background-color: #fcabab;
+}
+
+.present35 {
+  width: 53px;
+  height: 53px;
+  position: relative;
+  background-color: #fccc9f;
+  transform: rotate(-5deg);
+  margin: 10px;
+}
+.present35 .vribbon, .present35 .hribbon {
+  background-color: #ffffe0;
+}
+.present35 .cap {
+  background-color: #fccc9f;
+}
+
+.present36 {
+  width: 93px;
+  height: 93px;
+  position: relative;
+  background-color: #87b5ff;
+  transform: rotate(-1deg);
+  margin: 10px;
+}
+.present36 .vribbon, .present36 .hribbon {
+  background-color: #ffffe0;
+}
+.present36 .cap {
+  background-color: #87b5ff;
+}
+
+.present37 {
+  width: 83px;
+  height: 83px;
+  position: relative;
+  background-color: #ffffe0;
+  transform: rotate(8deg);
+  margin: 10px;
+}
+.present37 .vribbon, .present37 .hribbon {
+  background-color: #b6a0e5;
+}
+.present37 .cap {
+  background-color: #ffffe0;
+}
+
+.present38 {
+  width: 98px;
+  height: 98px;
+  position: relative;
+  background-color: #ffffe0;
+  transform: rotate(2deg);
+  margin: 10px;
+}
+.present38 .vribbon, .present38 .hribbon {
+  background-color: #ffffe0;
+}
+.present38 .cap {
+  background-color: #ffffe0;
+}
+
+.present39 {
+  width: 52px;
+  height: 52px;
+  position: relative;
+  background-color: #ffffe0;
+  transform: rotate(-2deg);
+  margin: 10px;
+}
+.present39 .vribbon, .present39 .hribbon {
+  background-color: #fcabab;
+}
+.present39 .cap {
+  background-color: #ffffe0;
+}
+
+.present40 {
+  width: 81px;
+  height: 81px;
+  position: relative;
+  background-color: #87b5ff;
+  transform: rotate(-3deg);
+  margin: 10px;
+}
+.present40 .vribbon, .present40 .hribbon {
+  background-color: #fcabab;
+}
+.present40 .cap {
+  background-color: #87b5ff;
+}
+
+.present41 {
+  width: 86px;
+  height: 86px;
+  position: relative;
+  background-color: #fcabab;
+  transform: rotate(6deg);
+  margin: 10px;
+}
+.present41 .vribbon, .present41 .hribbon {
+  background-color: #87b5ff;
+}
+.present41 .cap {
+  background-color: #fcabab;
+}
+
+.present42 {
+  width: 65px;
+  height: 65px;
+  position: relative;
+  background-color: #b6a0e5;
+  transform: rotate(-3deg);
+  margin: 10px;
+}
+.present42 .vribbon, .present42 .hribbon {
+  background-color: #fcabab;
+}
+.present42 .cap {
+  background-color: #b6a0e5;
+}
+
+.present43 {
+  width: 95px;
+  height: 95px;
+  position: relative;
+  background-color: #b6a0e5;
+  transform: rotate(-7deg);
+  margin: 10px;
+}
+.present43 .vribbon, .present43 .hribbon {
+  background-color: #ffffe0;
+}
+.present43 .cap {
+  background-color: #b6a0e5;
+}
+
+.present44 {
+  width: 89px;
+  height: 89px;
+  position: relative;
+  background-color: #fccc9f;
+  transform: rotate(7deg);
+  margin: 10px;
+}
+.present44 .vribbon, .present44 .hribbon {
+  background-color: #b6a0e5;
+}
+.present44 .cap {
+  background-color: #fccc9f;
+}
+
+.present45 {
+  width: 55px;
+  height: 55px;
+  position: relative;
+  background-color: #87b5ff;
+  transform: rotate(-6deg);
+  margin: 10px;
+}
+.present45 .vribbon, .present45 .hribbon {
+  background-color: #b6a0e5;
+}
+.present45 .cap {
+  background-color: #87b5ff;
+}
+
+.present46 {
+  width: 91px;
+  height: 91px;
+  position: relative;
+  background-color: #b6a0e5;
+  transform: rotate(-6deg);
+  margin: 10px;
+}
+.present46 .vribbon, .present46 .hribbon {
+  background-color: #fccc9f;
+}
+.present46 .cap {
+  background-color: #b6a0e5;
+}
+
+.present47 {
+  width: 99px;
+  height: 99px;
+  position: relative;
+  background-color: #fcabab;
+  transform: rotate(-8deg);
+  margin: 10px;
+}
+.present47 .vribbon, .present47 .hribbon {
+  background-color: #fccc9f;
+}
+.present47 .cap {
+  background-color: #fcabab;
+}
+
+.present48 {
+  width: 74px;
+  height: 74px;
+  position: relative;
+  background-color: #87b5ff;
+  transform: rotate(-5deg);
+  margin: 10px;
+}
+.present48 .vribbon, .present48 .hribbon {
+  background-color: #b6a0e5;
+}
+.present48 .cap {
+  background-color: #87b5ff;
+}
+
+.present49 {
+  width: 80px;
+  height: 80px;
+  position: relative;
+  background-color: #87b5ff;
+  transform: rotate(-2deg);
+  margin: 10px;
+}
+.present49 .vribbon, .present49 .hribbon {
+  background-color: #fcabab;
+}
+.present49 .cap {
+  background-color: #87b5ff;
+}
+
+.present50 {
+  width: 57px;
+  height: 57px;
+  position: relative;
+  background-color: #fccc9f;
+  transform: rotate(-7deg);
+  margin: 10px;
+}
+.present50 .vribbon, .present50 .hribbon {
+  background-color: #87b5ff;
+}
+.present50 .cap {
+  background-color: #fccc9f;
+}

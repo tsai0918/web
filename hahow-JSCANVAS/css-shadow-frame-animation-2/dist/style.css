@@ -1,0 +1,303 @@
+html, body {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #222;
+}
+
+.middle {
+  position: relative;
+}
+
+.ball {
+  width: 20px;
+  height: 20px;
+  background-color: blue;
+  border-radius: 50%;
+  position: absolute;
+  -webkit-animation: ball 5s infinite alternate;
+          animation: ball 5s infinite alternate;
+}
+
+@-webkit-keyframes ball {
+  0% {
+    transform: translateX(0px);
+    background-color: #a6c9f4;
+  }
+  25% {
+    width: 50px;
+    height: 50px;
+    transform: translateX(300px);
+    background-color: #7985ea;
+  }
+  75% {
+    transform: translateX(0px);
+    background-color: #5964e0;
+  }
+  100% {
+    transform: translateX(-300px);
+    background-color: #4156cc;
+  }
+}
+
+@keyframes ball {
+  0% {
+    transform: translateX(0px);
+    background-color: #a6c9f4;
+  }
+  25% {
+    width: 50px;
+    height: 50px;
+    transform: translateX(300px);
+    background-color: #7985ea;
+  }
+  75% {
+    transform: translateX(0px);
+    background-color: #5964e0;
+  }
+  100% {
+    transform: translateX(-300px);
+    background-color: #4156cc;
+  }
+}
+.container1 {
+  transform: rotate(5.1428571429deg);
+}
+.container1 .ball {
+  -webkit-animation-delay: -0.9s;
+          animation-delay: -0.9s;
+}
+
+.container2 {
+  transform: rotate(10.2857142857deg);
+}
+.container2 .ball {
+  -webkit-animation-delay: -1.8s;
+          animation-delay: -1.8s;
+}
+
+.container3 {
+  transform: rotate(15.4285714286deg);
+}
+.container3 .ball {
+  -webkit-animation-delay: -2.7s;
+          animation-delay: -2.7s;
+}
+
+.container4 {
+  transform: rotate(20.5714285714deg);
+}
+.container4 .ball {
+  -webkit-animation-delay: -3.6s;
+          animation-delay: -3.6s;
+}
+
+.container5 {
+  transform: rotate(25.7142857143deg);
+}
+.container5 .ball {
+  -webkit-animation-delay: -4.5s;
+          animation-delay: -4.5s;
+}
+
+.container6 {
+  transform: rotate(30.8571428571deg);
+}
+.container6 .ball {
+  -webkit-animation-delay: -5.4s;
+          animation-delay: -5.4s;
+}
+
+.container7 {
+  transform: rotate(36deg);
+}
+.container7 .ball {
+  -webkit-animation-delay: -6.3s;
+          animation-delay: -6.3s;
+}
+
+.container8 {
+  transform: rotate(41.1428571429deg);
+}
+.container8 .ball {
+  -webkit-animation-delay: -7.2s;
+          animation-delay: -7.2s;
+}
+
+.container9 {
+  transform: rotate(46.2857142857deg);
+}
+.container9 .ball {
+  -webkit-animation-delay: -8.1s;
+          animation-delay: -8.1s;
+}
+
+.container10 {
+  transform: rotate(51.4285714286deg);
+}
+.container10 .ball {
+  -webkit-animation-delay: -9s;
+          animation-delay: -9s;
+}
+
+.container11 {
+  transform: rotate(56.5714285714deg);
+}
+.container11 .ball {
+  -webkit-animation-delay: -9.9s;
+          animation-delay: -9.9s;
+}
+
+.container12 {
+  transform: rotate(61.7142857143deg);
+}
+.container12 .ball {
+  -webkit-animation-delay: -10.8s;
+          animation-delay: -10.8s;
+}
+
+.container13 {
+  transform: rotate(66.8571428571deg);
+}
+.container13 .ball {
+  -webkit-animation-delay: -11.7s;
+          animation-delay: -11.7s;
+}
+
+.container14 {
+  transform: rotate(72deg);
+}
+.container14 .ball {
+  -webkit-animation-delay: -12.6s;
+          animation-delay: -12.6s;
+}
+
+.container15 {
+  transform: rotate(77.1428571429deg);
+}
+.container15 .ball {
+  -webkit-animation-delay: -13.5s;
+          animation-delay: -13.5s;
+}
+
+.container16 {
+  transform: rotate(82.2857142857deg);
+}
+.container16 .ball {
+  -webkit-animation-delay: -14.4s;
+          animation-delay: -14.4s;
+}
+
+.container17 {
+  transform: rotate(87.4285714286deg);
+}
+.container17 .ball {
+  -webkit-animation-delay: -15.3s;
+          animation-delay: -15.3s;
+}
+
+.container18 {
+  transform: rotate(92.5714285714deg);
+}
+.container18 .ball {
+  -webkit-animation-delay: -16.2s;
+          animation-delay: -16.2s;
+}
+
+.container19 {
+  transform: rotate(97.7142857143deg);
+}
+.container19 .ball {
+  -webkit-animation-delay: -17.1s;
+          animation-delay: -17.1s;
+}
+
+.container20 {
+  transform: rotate(102.8571428571deg);
+}
+.container20 .ball {
+  -webkit-animation-delay: -18s;
+          animation-delay: -18s;
+}
+
+.container21 {
+  transform: rotate(108deg);
+}
+.container21 .ball {
+  -webkit-animation-delay: -18.9s;
+          animation-delay: -18.9s;
+}
+
+.container22 {
+  transform: rotate(113.1428571429deg);
+}
+.container22 .ball {
+  -webkit-animation-delay: -19.8s;
+          animation-delay: -19.8s;
+}
+
+.container23 {
+  transform: rotate(118.2857142857deg);
+}
+.container23 .ball {
+  -webkit-animation-delay: -20.7s;
+          animation-delay: -20.7s;
+}
+
+.container24 {
+  transform: rotate(123.4285714286deg);
+}
+.container24 .ball {
+  -webkit-animation-delay: -21.6s;
+          animation-delay: -21.6s;
+}
+
+.container25 {
+  transform: rotate(128.5714285714deg);
+}
+.container25 .ball {
+  -webkit-animation-delay: -22.5s;
+          animation-delay: -22.5s;
+}
+
+.container26 {
+  transform: rotate(133.7142857143deg);
+}
+.container26 .ball {
+  -webkit-animation-delay: -23.4s;
+          animation-delay: -23.4s;
+}
+
+.container27 {
+  transform: rotate(138.8571428571deg);
+}
+.container27 .ball {
+  -webkit-animation-delay: -24.3s;
+          animation-delay: -24.3s;
+}
+
+.container28 {
+  transform: rotate(144deg);
+}
+.container28 .ball {
+  -webkit-animation-delay: -25.2s;
+          animation-delay: -25.2s;
+}
+
+.container29 {
+  transform: rotate(149.1428571429deg);
+}
+.container29 .ball {
+  -webkit-animation-delay: -26.1s;
+          animation-delay: -26.1s;
+}
+
+.container30 {
+  transform: rotate(154.2857142857deg);
+}
+.container30 .ball {
+  -webkit-animation-delay: -27s;
+          animation-delay: -27s;
+}

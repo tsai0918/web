@@ -1,0 +1,64 @@
+html,body
+  width: 100%
+  height: 100%
+  display: flex
+  justify-content: center
+  align-items: center
+  background-color: #222
+  
+.rec
+  background-color: #fff
+  width: 400px
+  height: 400px
+  position: relative
+  
+.ball
+  height: 50px
+  width: 50px
+  background-color: red
+  position: absolute
+  top: 50%
+  transform: translateY(-50%)
+ 
+  
+
+  
+//   製作動畫影格 
+@keyframes ani
+  0%
+    left:0
+    background-color: green
+  50%
+    width: 100px
+    height: 100px
+    background-color: blue
+    border-radius: 50%
+  100%
+    left: calc(100% - 50px)
+    
+@keyframes rotate
+  0%,50%,100%
+    transform: translateX(0px) rotate(0deg)
+  
+  25%,75%
+    transform: translateX(500px) rotate(45deg)
+
+    
+  
+// 放入要動的元素   
+.ball
+  animation-name: ani //keyframe 的名字
+  animation-duration: 1s //完成一次的時間
+  animation-delay: 0s //晚點開始  負的: 網頁開始前就開始 
+  animation-iteration-count: infinite //重複播放(次數
+  // animation-direction: reverse //反向
+  animation-direction: alternate //左右 右左
+  animation-fill-mode: both //往前填補 0%的設定
+  
+.rec
+  animation: rotate 5s infinite alternate
+  // name duration delay count 
+  &:hover
+      animation-play-state: paused
+  // &:hover .ball 
+  //     animation-play-state: paused //小球暫停
